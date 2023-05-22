@@ -1,0 +1,1 @@
+export { DashBoardUserTable } from './DashBoardUserTable';

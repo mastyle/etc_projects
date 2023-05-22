@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@pages": ["./src/pages"],
+      "@pages/*": ["./src/pages/*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@context": ["./src/context"],
+      "@context/*": ["./src/context/*"],
+      "@provider": ["./src/provider"],
+      "@provider/*": ["./src/provider/*"]
+    },
+    "module": "esnext",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "jsxImportSource": "@emotion/react"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
